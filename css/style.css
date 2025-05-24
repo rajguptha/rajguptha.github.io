@@ -308,6 +308,10 @@ textarea {
       font-weight: 700;
       font-size: 2.8rem;
       margin-bottom: 3rem; }
+      .experience__duration {
+      font-weight: 700;
+      font-size: 2.0rem;
+      margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .experience__content-title {
           font-size: 2.4rem; } }
@@ -323,6 +327,8 @@ textarea {
       .experience__content-details-para:last-child {
         margin-bottom: 4rem; }
 
+
+        
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
