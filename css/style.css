@@ -289,6 +289,39 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+  
+.experience {
+  background: #fafafa; }
+  .experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem; }
+    @media only screen and (max-width: 56.25em) {
+      .experience__content {
+        grid-template-columns: 1fr;
+        grid-gap: 8rem; } }
+    .experience__entry {
+      margin-bottom: 4rem;
+    }
+    
+    .experience__content-title {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 3rem; }
+      @media only screen and (max-width: 37.5em) {
+        .experience__content-title {
+          font-size: 2.4rem; } }
+    .experience__content-details-para {
+      font-size: 1.8rem;
+      color: grey;
+      max-width: 60rem;
+      line-height: 1.7;
+      margin-bottom: 1rem; }
+      .experience__content-details-para--hl {
+        font-weight: 700;
+        margin: 0 3px; }
+      .experience__content-details-para:last-child {
+        margin-bottom: 4rem; }
 
 .projects__row {
   display: grid;
@@ -427,12 +460,25 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
-.project-cs-hero {
+/*.project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative; 
+}*/
+.project-cs-hero{
+  color: #fff;
+  background-color: #0a192f;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%230a192f'/%3E%3Cpath d='M40 0H0V40H40V0Z' stroke='%231c2b3a' stroke-width='0.5'/%3E%3C/svg%3E");
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: repeat;
+  height: 80vh;
+  min-height: 80rem;
+  max-height: 120rem;
+  position: relative;
+}
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
       height: unset;
